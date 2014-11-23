@@ -1,0 +1,35 @@
+{
+  "name": "gulp-git-sha",
+  "version": "1.0.0",
+  "description": "Append the git sha of the HEAD commit to various file types",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TJkrusinski/gulp-git-sha.git"
+  },
+  "keywords": [
+    "gulp",
+    "sha",
+    "git",
+    "sha1",
+    "append"
+  ],
+  "author": "TJ Krusinski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TJkrusinski/gulp-git-sha/issues"
+  },
+  "homepage": "https://github.com/TJkrusinski/gulp-git-sha",
+  "dependencies": {
+    "git-sha": "^1.0.0",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "event-stream": "^3.1.7",
+    "gulp-util": "^3.0.1"
+  }
+}
